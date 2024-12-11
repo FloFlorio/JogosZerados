@@ -1,0 +1,84 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    background-color: #c8d6e5;
+}
+
+h1 {
+	text-align: center;
+}
+
+form{
+	text-align: center;
+}
+
+form input {
+    margin-right: 65px;
+    height: 22px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid #0abde3;
+    border-radius: 6px;
+}
+
+form label{
+    font-size: 23px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+table, th, td {
+    border-bottom: 2px solid #dddddd;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+th{
+	background-color: #def7fc;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0abde3;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button {
+    background-color: #ff6b6b;
+    font-size: 15px;
+}
+
+.edit-button {
+    background-color: #0abde3;
+    font-size: 15px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
+.game-row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
